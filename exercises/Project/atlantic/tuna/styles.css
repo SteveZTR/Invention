@@ -1,0 +1,75 @@
+/* 通用基础样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f0f8ff; /* 淡蓝色背景 */
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004080;
+  color: white;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+/* 导航 webring 样式 */
+nav.webring a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffd700; /* 金黄色 */
+}
+
+nav.webring a:hover {
+  text-decoration: underline;
+}
+
+/* 主页：水域列表做成卡片网格 */
+main ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+}
+
+main ul li {
+  background: white;
+  border: 2px solid #cce0ff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+main ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+main ul li a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+/* 鱼类页面：图片样式 */
+figure img {
+  max-width: 100%;
+  border: 5px solid white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+  text-align: center;
+}
