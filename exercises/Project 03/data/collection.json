@@ -1,0 +1,137 @@
+[
+  {
+    "city": "London",
+    "lng": -0.1276,
+    "lat": 51.5074,
+    "description": "A city where everyday life unfolds alongside centuries of history, experienced through walking, museums, and streets.",
+    "images": ["data/London.jpg"],
+    "places": [
+      {
+        "name": "British Museum",
+        "lat": 51.5194,
+        "lng": -0.1270,
+        "type": "museum",
+        "description": "A world-famous museum with ancient artifacts.",
+        "images": ["data/BMuseum/BM.jpg"],
+        "artifacts": [
+          {"name": "Rosetta Stone", "image": "data/BMuseum/RS.jpg"},
+          {"name": "The Discus Thrower", "image": "data/BMuseum/TDT.jpg"},
+          {"name": "Tang San Cai", "image": "data/BMuseum/TSC.jpg"},
+          {"name": "Parthenon Sculptures", "image": "data/BMuseum/PS.jpg"},
+          {"name": "Jade Cow", "image": "data/BMuseum/COW.jpg"},
+          {"name": "Moai", "image": "data/BMuseum/Moai.jpg"}
+        ]
+      },
+      {
+        "name": "Big Ben",
+        "lat": 51.5007,
+        "lng": -0.1246,
+        "type": "landmark",
+        "description": "Iconic clock tower in London.",
+        "images": ["data/BB/BB.jpg"]
+      },
+      {
+        "name": "Tower Bridge",
+        "lat": 51.5055,
+        "lng": -0.0754,
+        "type": "landmark",
+        "description": "Famous bridge in London.",
+        "images": ["data/TB/TB.jpg"]
+      },
+      {
+  "name": "National Gallery",
+  "lat": 51.5089,
+  "lng": -0.1283,
+  "type": "museum",
+  "description": "The National Gallery houses a concentrated collection of European paintings, where movement through rooms becomes a quiet encounter with time, color, and art history.",
+  "images": [
+    "data/NG/NGE.jpg",
+    "data/NG/NEI.jpg"
+  ],
+  "artifacts": [ 
+    {
+      "name": "Claude Monet — Water-Lilies",
+      "image": "data/NG/WL.jpg"
+    },
+    {
+      "name": "Sunflowers — Vincent van Gogh",
+      "image": "data/NG/SF.jpg"
+    },
+   
+    {
+      "name": "George Stubbs — Whistlejacket",
+      "image": "data/NG/WJ.jpg"
+    }
+  ]
+}
+    ]
+  },
+  {
+    "city": "Edinburgh",
+    "lng": -3.1883,
+    "lat": 55.9533,
+    "description": "A city shaped by stone, elevation, and weather, where movement is defined by hills, views, and historic layers",
+    "images": ["data/edin.jpg"],
+    "places": [
+      {
+        "name": "Prince Street",
+        "lat": 55.9515,
+        "lng": -3.1985,
+        "type": "landmark",
+        "description": "Famous shopping street.",
+        "images": ["data/PS/PS.jpg"]
+      },
+      {
+        "name": "Scott Monument",
+        "lat": 55.9522,
+        "lng": -3.1926,
+        "type": "landmark",
+        "description": "Gothic monument for Sir Walter Scott.",
+        "images": ["data/SM/SM.jpg"]
+      },
+      {
+      "name": "Arthur’s Seat",
+      "lat": 55.9440,
+      "lng": -3.1618,
+      "type": "landmark",
+      "description": "A volcanic hill rising above Edinburgh, offering a slow ascent where the city unfolds through changing elevation and weather.",
+      "images": [
+      "data/AS/AS.jpg"
+      ]
+      }
+    ]
+  },
+  {
+    "city": "Dublin",
+    "lng": -6.2603,
+    "lat": 53.3498,
+    "description": "A compact city experienced through walking, civic spaces, and everyday encounters rather than monumental scale.",
+    "images": ["data/Ireland.jpg"],
+    "places": [
+      {
+        "name": "US Embassy",
+        "lat": 53.3440,
+        "lng": -6.2650,
+        "type": "landmark",
+        "description": "US Embassy in Dublin.",
+        "images": ["data/UE/UE.jpg"]
+      },
+      {
+        "name": "14 Henrietta St.",
+        "lat": 53.3482,
+        "lng": -6.2675,
+        "type": "landmark",
+        "description": "Historical site.",
+        "images": ["data/14/14.jpg"]
+      },
+      {
+        "name": "Christ Church Cathedral Bridge",
+        "lat": 53.3434,
+        "lng": -6.2711,
+        "type": "landmark",
+        "description": "A stone bridge connecting Christ Church Cathedral and the former Synod Hall, framing everyday movement beneath historic architecture.",
+        "images": ["data/CCC/CCC.jpg"]
+}
+    ]
+  }
+]

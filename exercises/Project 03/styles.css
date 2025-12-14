@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+header p {
+  margin: 0 0 16px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+#map {
+  width: 100%;
+  height: 75vh;
+}
+
+button {
+  margin: 12px 0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #115293;
+}
+
+/* Popup 基础及动画 */
+#popup-container {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  max-width: 320px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  display: none;
+  font-size: 0.9rem;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#popup-container.show {
+  display: block;
+  opacity: 1;
+}
+
+/* 城市 popup 左右布局 */
+#popup-container.city-popup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+#popup-container.city-popup img {
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+}
+
+#popup-container.city-popup .city-info {
+  flex: 1;
+  text-align: left;
+}
+
+#popup-container.city-popup .city-info h3 {
+  margin: 0 0 4px 0;
+}
+
+#popup-container.city-popup .city-info p {
+  margin: 0 0 6px 0;
+  font-size: 0.9rem;
+}
+
+#popup-container.city-popup button {
+  margin-top: 6px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+}
+
+#popup-container.city-popup button:hover {
+  background: #115293;
+}
+
+/* 博物馆 popup */
+#popup-container.museum-popup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* artifacts 网格 */
+#popup-container.museum-popup .artifacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+  align-items: start;
+}
+
+#popup-container.museum-popup .artifacts-grid div {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#popup-container.museum-popup .artifacts-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* 普通图片和文字 */
+#popup-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+#popup-container h3 {
+  margin: 4px 0 6px 0;
+  font-weight: bold;
+}
+
+#popup-container p {
+  margin: 4px 0 8px 0;
+  line-height: 1.3;
+}
+
+.city-popup .city-info button {
+  margin: 12px auto 0;
+  display: block;
+}
+
+.city-popup h3 {
+  text-align: center;
+}
